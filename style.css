@@ -47,10 +47,14 @@ nav {
 }
 
 .description {
-    padding-top: 3%;
+    padding-top: 1%;
     text-align: justify;
 }
 
 .partners-stack {
-    padding: 3% 0 5% 0;
+    margin-bottom: 50px;
+}
+.partner-logo {
+    height: 100px;
+    padding: 20px
 }
