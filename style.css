@@ -11,8 +11,12 @@ nav {
     display: inline-flex;
     padding: 1% 15% 1% 15%;
     justify-content: space-between;
+    align-items: center;
     width: 100%;
     box-shadow: 0 0 4px 0 #333;
+    position: fixed;
+    z-index: 2;
+    min-height: 65px;
 }
 
 #logo {
@@ -48,6 +52,5 @@ nav {
 }
 
 .partners-stack {
-    padding-top: 3%;
-    padding-bottom: 3%;
+    padding: 3% 0 5% 0;
 }
