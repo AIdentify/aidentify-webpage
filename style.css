@@ -7,7 +7,7 @@ body {
 }
 
 nav {
-    background-color: #e9e9e9;
+    background-color: #049b56;
     display: inline-flex;
     padding: 1% 15% 1% 15%;
     justify-content: space-between;
@@ -16,7 +16,8 @@ nav {
     box-shadow: 0 0 4px 0 #333;
     position: fixed;
     z-index: 2;
-    min-height: 65px;
+    min-height: 80px;
+    color: white;
 }
 
 #logo {
@@ -28,6 +29,7 @@ nav {
 }
 .nav-button:hover { 
     text-decoration: underline;
+    text-underline-offset: 10px;
 }
 
 .buttons-frame {
